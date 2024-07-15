@@ -9,3 +9,15 @@
   font-family: 'Roboto';
   src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
+
+body {
+  width: 100vw;
+}
+
+main {
+  margin: 5vh 7.5vw;
+}
+
+.computer {
+  width: 100%;
+}
