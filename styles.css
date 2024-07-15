@@ -1,1 +1,11 @@
 @import './node_modules/modern-normalize/modern-normalize.css';
+
+@font-face {
+  font-family: 'Playfair';
+  src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
