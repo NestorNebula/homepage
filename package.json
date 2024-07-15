@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NestorNebula/homepage/issues"
   },
-  "homepage": "https://github.com/NestorNebula/homepage#readme"
+  "homepage": "https://github.com/NestorNebula/homepage#readme",
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
 }
