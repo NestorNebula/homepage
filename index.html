@@ -10,7 +10,8 @@
     <main>
       <header>
         <picture>
-          <img src="./images/computer.jpg" alt="" class="computer" />
+          <source media="(min-width: 1200px)" srcset="./images/computer.jpg" />
+          <img src="./images/computermobile.jpg" alt="" class="computer" />
         </picture>
         <div class="name">Noa Houssier</div>
         <div class="aboutme">
@@ -154,7 +155,12 @@
         </div>
       </div>
       <picture>
-        <img src="./images/glasses.jpg" alt="" class="glasses" />
+        <source media="(min-width: 1200px)" srcset="./images/glasses.jpg" />
+        <source
+          media="(min-width: 600px)"
+          srcset="./images/glassestablet.jpg"
+        />
+        <img src="./images/glassesmobile.jpg" alt="" class="glasses" />
       </picture>
     </footer>
   </body>
