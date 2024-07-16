@@ -14,14 +14,48 @@
   font-size: 62.5%;
 }
 
-body {
-  width: 100vw;
-}
-
 main {
   margin: 5vh 7.5vw;
 }
 
+.imgcontainer {
+  position: relative;
+}
+
 .computer {
   width: 100%;
+}
+
+.name {
+  position: absolute;
+  bottom: 1%;
+  left: 1rem;
+  font-size: 6rem;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+
+.aboutme {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.aboutmetitle {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.aboutmetext {
+  font-size: 1.75rem;
+}
+
+.headericons {
+  display: flex;
+  gap: 2rem;
+  justify-self: center;
+}
+
+header .icon {
+  width: 3rem;
 }
