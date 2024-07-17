@@ -360,6 +360,10 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  body {
+    gap: 10rem;
+  }
+
   .background {
     transform: translate(-65vw, -35vh) rotate(-15deg);
     height: max(600px, min(100vh, 900px));
@@ -405,5 +409,13 @@ footer {
 
   section {
     margin: 2rem;
+  }
+
+  footer {
+    padding: 5rem 7.5rem;
+  }
+
+  .contact {
+    height: 100%;
   }
 }
