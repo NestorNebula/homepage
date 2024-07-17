@@ -402,4 +402,8 @@ footer {
     padding-left: 45%;
     padding-bottom: 3rem;
   }
+
+  section {
+    margin: 2rem;
+  }
 }
