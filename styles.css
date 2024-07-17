@@ -41,6 +41,7 @@ main {
   height: max(600px, min(100vh, 1200px));
   width: 200vw;
   transform: translate(-75vw, -60vh) rotate(-35deg);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .imgcontainer {
