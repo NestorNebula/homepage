@@ -292,4 +292,69 @@ footer {
   section {
     margin: 3rem;
   }
+
+  .mywork {
+    text-align: start;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 3rem 6rem;
+  }
+
+  .contact {
+    gap: 3rem;
+    align-self: center;
+  }
+
+  .contact-title {
+    align-self: start;
+  }
+
+  .contact-text,
+  .contact-infos,
+  .otherinfos {
+    font-size: 2rem;
+  }
+
+  .contact-infos {
+    gap: 3rem;
+  }
+
+  .otherinfos {
+    gap: 1rem;
+  }
+
+  .number,
+  .email {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .number::before,
+  .email::before {
+    width: 3rem;
+    display: block;
+    position: relative;
+    top: -0.25rem;
+    filter: invert();
+  }
+
+  .number::before {
+    content: url(./images/icons/phone.svg);
+  }
+
+  .email::before {
+    content: url(./images/icons/email.svg);
+    color: white;
+  }
+
+  .contacticons {
+    align-self: start;
+    gap: 2.5rem;
+  }
+
+  .glasses {
+    height: 100%;
+  }
 }
