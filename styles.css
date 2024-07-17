@@ -288,4 +288,8 @@ footer {
   .headericons {
     display: none;
   }
+
+  section {
+    margin: 3rem;
+  }
 }
