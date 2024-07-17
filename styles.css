@@ -74,7 +74,7 @@ main {
 }
 
 .aboutmetext {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 .headericons {
@@ -238,4 +238,53 @@ footer {
 .project-title,
 .contact-title {
   font-family: 'Playfair';
+}
+
+@media (min-width: 600px) {
+  .background {
+    transform: translate(-75vw, -60vh) rotate(-20deg);
+    z-index: -1;
+  }
+
+  header {
+    z-index: 0;
+  }
+
+  .imgcontainer {
+    margin: 4vw 0 0 3rem;
+    position: relative;
+    top: 1rem;
+    left: -2rem;
+    float: left;
+    width: 40vw;
+  }
+
+  .name {
+    left: 80%;
+    bottom: 80%;
+    width: max-content;
+  }
+
+  .aboutme {
+    display: block;
+    margin-left: 10rem;
+    background-color: white;
+    margin-top: 13rem;
+    width: 85%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .aboutmetitle {
+    padding-top: 7.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutmetext {
+    padding: 2rem 4rem 7rem 5rem;
+    line-height: 1.5;
+  }
+
+  .headericons {
+    display: none;
+  }
 }
