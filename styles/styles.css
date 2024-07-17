@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Playfair';
-  src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+  src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 :root {
@@ -108,32 +108,32 @@ header .icon {
 
 #project1 .projectimg {
   background-color: #9e1c1cff;
-  background-image: url(./images/projects/battleshipmobile.jpeg);
+  background-image: url(../images/projects/battleshipmobile.jpeg);
 }
 
 #project2 .projectimg {
   background-color: #7c75caff;
-  background-image: url(./images/projects/tic-tac-toemobile.png);
+  background-image: url(../images/projects/tic-tac-toemobile.png);
 }
 
 #project3 .projectimg {
   background-color: #5e8f4dff;
-  background-image: url(./images/projects/admin-dashboardmobile.png);
+  background-image: url(../images/projects/admin-dashboardmobile.png);
 }
 
 #project4 .projectimg {
   background-color: #c363b4ff;
-  background-image: url(./images/projects/librarymobile.png);
+  background-image: url(../images/projects/librarymobile.png);
 }
 
 #project5 .projectimg {
   background-color: #d88f39ff;
-  background-image: url(./images/projects/restaurant-pagemobile.png);
+  background-image: url(../images/projects/restaurant-pagemobile.png);
 }
 
 #project6 .projectimg {
   background-color: #4ba2d2ff;
-  background-image: url(./images/projects/todo-listmobile.png);
+  background-image: url(../images/projects/todo-listmobile.png);
   background-position: left;
 }
 
@@ -345,11 +345,11 @@ footer a:focus {
   }
 
   .number::before {
-    content: url(./images/icons/phone.svg);
+    content: url(../images/icons/phone.svg);
   }
 
   .email::before {
-    content: url(./images/icons/email.svg);
+    content: url(../images/icons/email.svg);
     color: white;
   }
 
@@ -416,32 +416,32 @@ footer a:focus {
   }
 
   #project1 .projectimg {
-    background-image: url(./images/projects/battleship.jpeg);
+    background-image: url(../images/projects/battleship.jpeg);
   }
 
   #project2 .projectimg {
     background-color: #7c75caff;
-    background-image: url(./images/projects/tic-tac-toe.png);
+    background-image: url(../images/projects/tic-tac-toe.png);
   }
 
   #project3 .projectimg {
     background-color: #5e8f4dff;
-    background-image: url(./images/projects/admin-dashboard.png);
+    background-image: url(../images/projects/admin-dashboard.png);
   }
 
   #project4 .projectimg {
     background-color: #c363b4ff;
-    background-image: url(./images/projects/library.png);
+    background-image: url(../images/projects/library.png);
   }
 
   #project5 .projectimg {
     background-color: #d88f39ff;
-    background-image: url(./images/projects/restaurant-page.png);
+    background-image: url(../images/projects/restaurant-page.png);
   }
 
   #project6 .projectimg {
     background-color: #4ba2d2ff;
-    background-image: url(./images/projects/todo-list.png);
+    background-image: url(../images/projects/todo-list.png);
     background-position: left;
   }
 
