@@ -257,6 +257,7 @@ footer {
     left: -2rem;
     float: left;
     width: 40vw;
+    padding-bottom: 0.5rem;
   }
 
   .name {
