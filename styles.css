@@ -358,3 +358,47 @@ footer {
     height: 100%;
   }
 }
+
+@media (min-width: 1200px) {
+  .background {
+    transform: translate(-65vw, -35vh) rotate(-15deg);
+  }
+
+  .imgcontainer {
+    margin-top: 3rem;
+    width: 35vw;
+  }
+
+  .name {
+    width: 100%;
+    left: 0%;
+    bottom: 3%;
+    text-align: center;
+  }
+
+  .aboutme {
+    margin-top: 9rem;
+  }
+
+  .aboutmetitle {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+  }
+
+  .aboutmetext {
+    padding: 2rem 4rem 3rem 5rem;
+    line-height: 1.5;
+    max-width: 100ch;
+  }
+
+  .headericons {
+    display: none;
+  }
+
+  .headericons {
+    display: flex;
+    padding-left: 45%;
+    padding-bottom: 3rem;
+  }
+}
