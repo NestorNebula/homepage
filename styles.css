@@ -147,12 +147,6 @@ header .icon {
   background-size: cover;
 }
 
-.imgcontent {
-  font-size: 4rem;
-  text-align: center;
-  color: transparent;
-}
-
 .projectcontent {
   display: grid;
   grid-template-columns: 2fr 1fr;
