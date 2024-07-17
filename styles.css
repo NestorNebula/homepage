@@ -415,6 +415,36 @@ footer a:focus {
     margin: 2rem;
   }
 
+  #project1 .projectimg {
+    background-image: url(./images/projects/battleship.jpeg);
+  }
+
+  #project2 .projectimg {
+    background-color: #7c75caff;
+    background-image: url(./images/projects/tic-tac-toe.png);
+  }
+
+  #project3 .projectimg {
+    background-color: #5e8f4dff;
+    background-image: url(./images/projects/admin-dashboard.png);
+  }
+
+  #project4 .projectimg {
+    background-color: #c363b4ff;
+    background-image: url(./images/projects/library.png);
+  }
+
+  #project5 .projectimg {
+    background-color: #d88f39ff;
+    background-image: url(./images/projects/restaurant-page.png);
+  }
+
+  #project6 .projectimg {
+    background-color: #4ba2d2ff;
+    background-image: url(./images/projects/todo-list.png);
+    background-position: left;
+  }
+
   footer {
     padding: 5rem 7.5rem;
   }
