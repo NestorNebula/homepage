@@ -65,7 +65,7 @@ main {
 
 .aboutme {
   display: grid;
-  gap: 1.25rem;
+  gap: 1.75rem;
 }
 
 .aboutmetitle {
@@ -76,6 +76,7 @@ main {
 
 .aboutmetext {
   font-size: 2.25rem;
+  line-height: 1.5;
 }
 
 .headericons {
@@ -283,7 +284,6 @@ footer {
 
   .aboutmetext {
     padding: 2rem 4rem 7rem 5rem;
-    line-height: 1.5;
   }
 
   .headericons {
